@@ -135,6 +135,20 @@ main{
     margin-bottom: 0px;
    
 }
+#exprience-badge{
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -120px;
+}
+#exprience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.featere-artitec img{
+    width: 100%;
+}
 /* some fact related style */
 .div-facts-container{
     display: grid;
@@ -183,6 +197,7 @@ main{
  @media screen and (max-width: 576px){
     .navber, 
     .nav-links,
+    .featers-container,
     .team-container{
         flex-direction: column;
     }
@@ -204,9 +219,14 @@ main{
         justify-items: center;
         gap: 50px;
     }
+   #exprience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+   }
  }
  /* medium device */
  @media screen and (min-width: 576px) and (max-width: 992px) {
+    .featers-container,
     .team-container{
         flex-direction: column;
     }
